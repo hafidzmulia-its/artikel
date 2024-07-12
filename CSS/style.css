@@ -168,7 +168,9 @@ footer {
 footer .socials {
   padding: 1rem 0;
   justify-content: space-around;
-  margin-top: 1rem;
+  width: 10rem;
+  display: flex;
+  margin: 0 auto;
 }
 footer .socials a {
   color: #fff;
@@ -195,4 +197,65 @@ footer .credit {
 footer .credit a {
   color: var(--bg);
   font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .article {
+    padding: 7rem 10%;
+  }
+  .profile img {
+    width: 3rem;
+    height: 3rem;
+  }
+  .profile h2 {
+    font-size: 0.9rem;
+  }
+  .profile p {
+    font-size: 0.8rem;
+  }
+  .daftarisi h2 {
+    font-size: 1rem;
+  }
+  .daftarisi a {
+    font-size: 0.9rem;
+  }
+  .content {
+    font-size: 1rem;
+  }
+  .prolog p,
+  .content p,
+  .skill p,
+  .sumber p {
+    font-size: 1rem;
+  }
+  .teknik h2,
+  .skill h2 {
+    font-size: 1.2rem;
+  }
+  .teknik-img,
+  .skill-img {
+    font-size: 0.9rem;
+  }
+  .teknik h3,
+  .skill h3 {
+    font-size: 1.1rem;
+  }
+  .sumber a {
+    font-size: 0.9rem;
+  }
+  footer .links a {
+    padding: 0.5rem 0.8rem;
+  }
+  footer .credit {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 425px) {
+  .article {
+    padding: 6rem 5% 0 5%;
+  }
+  .article h1 {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+  }
 }
